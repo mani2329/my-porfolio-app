@@ -4,7 +4,7 @@ import '../pages/Portfolio.css'
 
 function Home() {
   return (
-    <div>
+    <>
          <header className="header">
         <a href="/" className="logo">Portfolio</a>
         <i className="bx bx-menu menu-icon" id="menu-icon"></i>
@@ -46,7 +46,7 @@ function Home() {
         </section>
 
       
-    </div>
+    </>
   )
 }
 
